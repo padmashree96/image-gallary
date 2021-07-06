@@ -5,10 +5,10 @@ body {
 
 * {
   box-sizing: border-box;
-  background-color: #111;
+  background-color:rgb(82, 79, 79);
 }
 h2{
-  color: #fff;
+  color: rgb(153, 238, 74);
 }
 .controls {
   display:flex;
@@ -70,17 +70,17 @@ img{
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: black;
+  background-color:rgb(82, 79, 79);
 }
 
 /* Modal Content */
 .modal-content {
-  position: relative;
-  background-color: #fefefe;
+  position: static;
+background-color: rgb(82, 79, 79);
   margin: auto;
   padding: 0;
-  width: 90%;
-  max-width: 1200px;
+  width: 70%;
+  max-width: 700px;
 }
 
 /* The Close Button */
@@ -109,8 +109,9 @@ img{
 }
 
 /* Next & previous buttons */
-.prev,
-.next {
+ .prev,
+.next { 
+  
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -125,6 +126,7 @@ img{
   user-select: none;
   -webkit-user-select: none;
 }
+
 
 /* Position the "next button" to the right */
 .next {
